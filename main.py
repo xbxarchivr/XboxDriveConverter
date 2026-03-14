@@ -119,7 +119,6 @@ with open(drive.DeviceID, 'r+b') as disk:
     disk.write(mbr)
 
 print(f"Backup stored in: {os.path.expanduser("~\\mbrbackup.bin")}\n")
-print(drive.Index)
 print("If u converted to xbox u can skip this step")
 input("VERY IMPORTANT!!! Please check now if the disk appears mounted in disk management (Action -> Refresh), if it does exit this program. If it dosent press enter: ")
 
